@@ -1,0 +1,89 @@
+/* ----------------------------------------- */
+/* ----------BASIC-SETUP-------------------- */
+/* ----------------------------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    background: linear-gradient(to bottom,rgb(199, 27, 127),rgb(36, 45, 168));
+}
+
+.clearfix::after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+
+.login {
+    position: relative;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    height: 500px;
+    background-color: #fff;
+    transform: translateY(20%);
+}
+
+.check {
+    float: left;
+    font-size: 80%;
+    margin: -25px 0 30px -7px;
+    color: #9b9292;
+}
+
+h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 120%;
+    padding: 40px 0;
+}
+
+input[type=email],
+input[type=password] {
+    background-color: #f1e8e8;
+    width: 80%;
+    height: 45px;
+    padding: 7px;
+    border: 1px solid #f1e8e8;
+    color: #757575;
+    margin-bottom: 15px;
+    font-family: 'PT Mono', monospace;
+   font-weight: bold; 
+}
+
+input[type=checkbox] {
+    margin: 25px 6px 0 40px;
+}
+
+input[type=submit] {
+    width: 80%;
+    height: 45px;
+    padding: 7px;
+    border: 1px solid #B53471;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background-color: #B53471;
+    border-radius: 2px;
+}
+
+.sign-up {
+    font-size: 65%;
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 5px;
+}

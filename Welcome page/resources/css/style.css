@@ -1,0 +1,241 @@
+/* ----------------------------------------- */
+/* ----------BASIC-SETUP-------------------- */
+/* ----------------------------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+	text-rendering: optimizeLegibility;
+}
+
+/* ----------------------------------------- */
+/* ----------REUSABLE CONTENT----------------- */
+/* ----------------------------------------- */
+
+input[type=text] {
+	width: 800px;
+    padding: 25px;
+	border-radius: 3px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border: 1px solid #ccc;
+	border-left: 0;
+	color: #555;
+	font-size: 95%;
+	font-weight: bold;
+	box-shadow: 0 3px 3px #22222211;
+	float: left;
+	margin-top: -0.7px;
+}
+
+.bar ion-icon {
+	float: left;
+	font-size: 200%;
+	padding: 10px;
+	color: rgb(41, 41, 41);
+	background-color: #fff; 
+	height: 53px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+	
+/* ----------------------------------------- */
+/* ----------HEADINGS----------------- */
+/* ----------------------------------------- */
+
+h1 {
+	color: #fff;
+	font-size: 215%;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 105%;
+	margin-bottom: 25px;
+	opacity: 0.9;
+}
+
+.centre-content {
+	position: absolute;
+    top: 35%;
+	transform: translateY(-18%);
+	margin-left: 17%;
+}
+
+header {
+	height: 100vh;
+	position: relative;
+}
+
+
+/* ----------------------------------------- */
+/* ----------NAVIGATION BAR----------------- */
+/* ----------------------------------------- */
+/* Main Nav */
+.main-nav {
+    float: right;
+    list-style: none;
+	margin-top: 25px;
+	padding-right: 15px;
+}
+
+.main-nav li {
+    display: inline-block;
+	margin-left: 30px;  
+	font-weight: 600;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    font-size: 75%;
+    padding-bottom: 25px;
+    text-decoration: none;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #ffffff;
+}
+
+.logo {
+	position: absolute;
+	float: left;
+	height: 30px;
+	width: auto;
+	top: 25px;
+	left: 25px;
+}
+/* ----------------------------------------- */
+/* ----------BACKGROUND IMAGE----------------- */
+/* ----------------------------------------- */
+
+.background {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+    z-index: -1;
+}
+
+/* ----------------------------------------- */
+/* ----------FOOTER----------------- */
+/* ----------------------------------------- */
+
+
+footer {
+	background-color: #fff;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding-left: 10%;
+	padding-bottom: 50px;
+	display: none;
+}
+
+.links {
+	color: #333;
+	font-size: 73%;
+	margin-top: 30px;
+}
+
+.heading {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.links li {
+	list-style: none;
+	margin-bottom: 3px;
+}
+
+.links li a {
+	text-decoration: none;
+	color: #555;
+	font-weight: 400;
+}
+
+.links li a:hover {
+	text-decoration: underline;
+}
+
+.links ion-icon {
+
+	margin-right: 12px;
+	color: #555;
+	font-size: 180%;
+}
+
+.heart {
+	color: #e31b23;
+	vertical-align: middle;
+	line-height-step: 120%;
+	margin-top: -2px;
+}
+
+footer p {
+	position: absolute;
+    padding-top: 10px;
+	font-size: 80%;
+	bottom: 10px;
+	left: 45%;
+}
+
+.bottom {
+	color: rgb(247, 242, 242);
+	font-size: 70%;
+}
+
+.bottom p {
+
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+}
+
+.bottom a, .close {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	text-decoration: none;
+	color: #111;
+	font-weight: 500;
+}
+
+.btn {
+	position: fixed;
+	padding: 10px 20px;
+	background-color: #fff;
+	border: 1px solid rgb(125, 236, 103); 
+}
+
+.close {
+	display: none;
+	font-size: 70%;
+}
+
+.close ion-icon {
+
+	font-size: 160%;
+	vertical-align: middle;
+	line-height-step: 120%;
+	margin-top: -3px;
+}
+
+*:focus {
+    outline: none;
+}
